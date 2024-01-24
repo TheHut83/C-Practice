@@ -4,4 +4,4 @@ project(UK C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(UK
-        2-DayUK/5-control-5-switch.c)
+        2-DayUK/7-function-2.c)

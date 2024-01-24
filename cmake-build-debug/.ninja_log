@@ -1,8 +1,9 @@
 # ninja log v5
 3	97	7277568691774264	CMakeFiles/UK.dir/2-DayUK/2-control.c.obj	6ef3d9a56d8d0260
-1	126	7278367282834883	build.ninja	ad014efbeb706e9f
-85	188	7278185793509041	UK.exe	348b953abcc2e666
+1	86	7278381007322015	build.ninja	ad014efbeb706e9f
+61	142	7278376486784801	UK.exe	62251755a34bf8b3
 3	200	7277515864429701	CMakeFiles/UK.dir/1-DayUK/1-BIO.c.obj	cd6099a7c25b90cc
+2	77	7278369551286441	CMakeFiles/UK.dir/2-DayUK/5-control-5-switch.c.obj	87e5f8792f0e9c7e
 0	70	7277524563144895	CMakeFiles/UK.dir/1-DayUK/6-looping.c.obj	e9a0f2e86445deca
 0	132	7276462115445450	CMakeFiles/UK.dir/1-DayUK/2-control.c.obj	399a54dcece3fb4d
 3	80	7277518750996342	CMakeFiles/UK.dir/1-DayUK/4-DataTypes.c.obj	b37a4e8e63cb9c7
@@ -13,10 +14,9 @@
 4	87	7277550743062402	CMakeFiles/UK.dir/2-DayUK/1-if-control.c.obj	dcd94a91a40d188d
 2	90	7278182411183336	CMakeFiles/UK.dir/2-DayUK/3-control-3.c.obj	cec86363826c6ebd
 1	85	7278185792606645	CMakeFiles/UK.dir/2-DayUK/4-control-4.c.obj	dfc2db7032bb4cb6
-1	98	7278367282834883	build.ninja	ad014efbeb706e9f
-0	59	7278367283611765	CMakeFiles/UK.dir/2-DayUK/5-control-5-switch.c.obj	87e5f8792f0e9c7e
-60	149	7278367284455041	UK.exe	6c2e309bace0f24a
-2	62	7278367395730331	CMakeFiles/UK.dir/2-DayUK/5-control-5-switch.c.obj	87e5f8792f0e9c7e
-63	138	7278367396437390	UK.exe	6c2e309bace0f24a
-2	77	7278369551286441	CMakeFiles/UK.dir/2-DayUK/5-control-5-switch.c.obj	87e5f8792f0e9c7e
-78	174	7278369552177235	UK.exe	6c2e309bace0f24a
+2	61	7278376486031340	CMakeFiles/UK.dir/2-DayUK/6-function-1.c.obj	6eddfebd6212138
+1	112	7278381007322015	build.ninja	ad014efbeb706e9f
+0	64	7278381008242219	CMakeFiles/UK.dir/2-DayUK/7-function-2.c.obj	30f627bc8884bfe5
+64	137	7278381008925242	UK.exe	4da04f00a3e3c2d6
+2	65	7278381528357276	CMakeFiles/UK.dir/2-DayUK/7-function-2.c.obj	30f627bc8884bfe5
+66	142	7278381529084851	UK.exe	4da04f00a3e3c2d6
