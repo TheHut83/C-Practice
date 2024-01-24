@@ -4,4 +4,4 @@ project(UK C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(UK
-        2-DayUK/10-labour-data-use-struct-array.c)
+        3-DayUK/1-structure-uk.c)
