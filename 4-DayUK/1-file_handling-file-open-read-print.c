@@ -5,6 +5,7 @@
 
 int main(){
     double number=0.0;
+    int y=0;
     FILE *fptr;
     fptr = fopen("number.txt", "w");
 
@@ -26,8 +27,10 @@ int main(){
         perror("File Opening Failed\n");
         return -1;
     }
+
     while(fscanf(fptr,"%lf",&number)!=EOF){
-        printf("data inside file: %lf\n", number);
+        printf("%d-data inside file: %lf\n", y, number);//this read from the file and print what's inside the file including incrementing number y
+        ++y;
     }
     fclose(fptr);
 
