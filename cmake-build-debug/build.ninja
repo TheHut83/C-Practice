@@ -55,6 +55,12 @@ build CMakeFiles/UK.dir/3-DayUK/4-pointer1.c.obj: C_COMPILER__UK_unscanned_Debug
   OBJECT_DIR = CMakeFiles\UK.dir
   OBJECT_FILE_DIR = CMakeFiles\UK.dir\3-DayUK
 
+build CMakeFiles/UK.dir/3-DayUK/5-DoublePointer.c.obj: C_COMPILER__UK_unscanned_Debug C$:/TinDatum/TinDatum/Udemy/WinHtut/CLion$ Projects/UK/3-DayUK/5-DoublePointer.c || cmake_object_order_depends_target_UK
+  DEP_FILE = CMakeFiles\UK.dir\3-DayUK\5-DoublePointer.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\UK.dir
+  OBJECT_FILE_DIR = CMakeFiles\UK.dir\3-DayUK
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target UK
@@ -63,7 +69,7 @@ build CMakeFiles/UK.dir/3-DayUK/4-pointer1.c.obj: C_COMPILER__UK_unscanned_Debug
 #############################################
 # Link the executable UK.exe
 
-build UK.exe: C_EXECUTABLE_LINKER__UK_Debug CMakeFiles/UK.dir/3-DayUK/4-pointer1.c.obj
+build UK.exe: C_EXECUTABLE_LINKER__UK_Debug CMakeFiles/UK.dir/3-DayUK/4-pointer1.c.obj CMakeFiles/UK.dir/3-DayUK/5-DoublePointer.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\UK.dir

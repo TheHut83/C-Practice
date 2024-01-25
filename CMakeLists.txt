@@ -4,4 +4,4 @@ project(UK C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(UK
-        3-DayUK/4-pointer1.c)
+        3-DayUK/5-DoublePointer.c)
