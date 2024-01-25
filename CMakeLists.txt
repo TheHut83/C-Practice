@@ -4,4 +4,4 @@ project(UK C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(UK
-        3-DayUK/7-fileIO-2-with-own-struct-and-array.c)
+        4-DayUK/1-file_handling-file-open-read-print.c)
