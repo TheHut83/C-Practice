@@ -1,7 +1,7 @@
 # ninja log v5
 3	97	7277568691774264	CMakeFiles/UK.dir/2-DayUK/2-control.c.obj	6ef3d9a56d8d0260
-1	124	7279050738749390	build.ninja	ad014efbeb706e9f
-88	192	7279026247918270	UK.exe	49f897103b1f1d8b
+1	116	7279238333966775	build.ninja	ad014efbeb706e9f
+68	166	7279238188093317	UK.exe	238ee0a7557afd8b
 3	200	7277515864429701	CMakeFiles/UK.dir/1-DayUK/1-BIO.c.obj	cd6099a7c25b90cc
 2	77	7278369551286441	CMakeFiles/UK.dir/2-DayUK/5-control-5-switch.c.obj	87e5f8792f0e9c7e
 0	70	7277524563144895	CMakeFiles/UK.dir/1-DayUK/6-looping.c.obj	e9a0f2e86445deca
@@ -23,8 +23,8 @@
 1	94	7279014670548650	CMakeFiles/UK.dir/3-DayUK/2-employee-struct-array.c.obj	d3136ccf9c6ec3e5
 3	87	7279026246951525	CMakeFiles/UK.dir/3-DayUK/4-pointer1.c.obj	e13cbc733d416c1f
 2	100	7279019137690295	CMakeFiles/UK.dir/3-DayUK/3-own-type-use-typedef.c.obj	b5aaad7cd9213197
-1	134	7279050738749390	build.ninja	ad014efbeb706e9f
-1	74	7279050739720520	CMakeFiles/UK.dir/3-DayUK/5-DoublePointer.c.obj	f6be42b1fd8613e3
-75	187	7279050740798790	UK.exe	fd419c9978f2686b
-3	91	7279051012717622	CMakeFiles/UK.dir/3-DayUK/5-DoublePointer.c.obj	f6be42b1fd8613e3
-91	192	7279051013677944	UK.exe	fd419c9978f2686b
+3	139	7279205609549553	CMakeFiles/UK.dir/3-DayUK/5-DoublePointer.c.obj	f6be42b1fd8613e3
+2	68	7279238187174846	CMakeFiles/UK.dir/3-DayUK/6-ourProgram-file-pointer-open-file.c.obj	fa703f8989cad2cf
+2	69	7279236626533692	CMakeFiles/UK.dir/3-DayUK/7-fileIO-2-with-own-struct-and-array.c.obj	ebd349a363481291
+1	109	7279238333966775	build.ninja	ad014efbeb706e9f
+2	86	7279238335026916	UK.exe	7f8363c295e14beb

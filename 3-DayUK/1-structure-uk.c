@@ -12,7 +12,7 @@ struct data{
 int main(){
     struct data db1;
     db1.age = 20;
-    db1.name[0] = "Peter";
+    db1.name[0] = "Peter"; //Questoin-> why it doesn't print charter
     db1.ph = 998;
     db1.address = "a";
 
