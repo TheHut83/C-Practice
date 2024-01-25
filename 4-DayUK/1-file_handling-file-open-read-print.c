@@ -29,7 +29,7 @@ int main(){
     }
 
     while(fscanf(fptr,"%lf",&number)!=EOF){
-        printf("%d-data inside file: %lf\n", y, number);//this read from the file and print what's inside the file including incrementing number y
+        printf("%d-data inside file: %lf\n", y, number);//this reads from the file and prints what's inside the file including incrementing number y
         ++y;
     }
     fclose(fptr);
