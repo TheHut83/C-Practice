@@ -4,22 +4,22 @@
 #include "stdio.h"
 struct data{
     int age;
-    char name[30];
+    char *name;
     int ph;
-    char address;
+    char *address;
 };
 
 int main(){
-    struct data db1;
-    db1.age = 20;
-    db1.name[0] = "Peter"; //Questoin-> why it doesn't print charter
-    db1.ph = 998;
-    db1.address = "a";
+    struct data db1Ptr, data1;
+    db1Ptr.age = 20;
+    db1Ptr.name = "Peter"; //Question-> why it doesn't print character
+    db1Ptr.ph = 998;
+    db1Ptr.address = "This is using the structure with string and pointer";
 
-    printf("Age: %d\n",db1.age);
-    printf("Name: %c\n",db1.name[0]);
-    printf("Phone: %d\n",db1.ph);
-    printf("Address: %c\n",db1.address);
+    printf("Age: %d\n",db1Ptr.age);
+    printf("Name: %s\n",db1Ptr.name);
+    printf("Phone: %d\n",db1Ptr.ph);
+    printf("Address: %s\n",db1Ptr.address);
 
     return 0;
 }

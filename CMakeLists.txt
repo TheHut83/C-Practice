@@ -4,4 +4,4 @@ project(UK C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(UK
-        4-DayUK/2-binaryFile-open-file-write-read-own-structure.c)
+        3-DayUK/1-structure-uk.c)
