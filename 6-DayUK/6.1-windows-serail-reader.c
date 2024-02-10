@@ -16,7 +16,16 @@ int main() {
     COMMTIMEOUTS timeouts = { 0 };
 
     // Open the serial port (COM1)
-    hSerial = CreateFile("COM11", GENERIC_READ | GENERIC_WRITE, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+    //hSerial = CreateFile("COM11", GENERIC_READ | GENERIC_WRITE, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+    CreateFile(
+            "\\\\.\\COM14",     // address of name of the communications device
+            GENERIC_READ | GENERIC_WRITE,          // access (read-write) mode
+            0,                  // share mode
+            NULL,               // address of security descriptor
+            OPEN_EXISTING,      // how to create
+            0,                  // file attributes
+            NULL                // handle of file with attributes to copy
+    );
     if (hSerial == INVALID_HANDLE_VALUE) {
         fprintf(stderr, "Error opening serial port\n");
         return 1;
@@ -29,10 +38,19 @@ int main() {
         CloseHandle(hSerial);
         return 1;
     }
-    dcbSerialParams.BaudRate = CBR_9600;
+    //dcbSerialParams.BaudRate = CBR_9600;
+    //dcbSerialParams.ByteSize = 8;
+    //dcbSerialParams.StopBits = ONESTOPBIT;
+    //dcbSerialParams.Parity = NOPARITY;
+
     dcbSerialParams.ByteSize = 8;
-    dcbSerialParams.StopBits = ONESTOPBIT;
+    dcbSerialParams.BaudRate = CBR_9600;
+    dcbSerialParams.fParity = FALSE;
     dcbSerialParams.Parity = NOPARITY;
+    dcbSerialParams.StopBits = ONESTOPBIT;
+    dcbSerialParams.fDtrControl = 0;
+    dcbSerialParams.fRtsControl = 0;
+
     if (!SetCommState(hSerial, &dcbSerialParams)) {
         fprintf(stderr, "Error setting device parameters\n");
         CloseHandle(hSerial);

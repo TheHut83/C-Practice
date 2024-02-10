@@ -1,9 +1,9 @@
 # ninja log v5
-1	102	7287294689891706	build.ninja	6911aa93d8b9b1ef
-750	869	7287294202084395	UK.exe	cc55793dc8677cb1
-2	703	7286955415100873	CMakeFiles/UK.dir/6-DayUK/6.3-readingFromSerial3.c.obj	88a3ec191bdb2110
-0	749	7287294200930781	CMakeFiles/UK.dir/7-DayUK/7.2-Calibration.c.obj	edf5c3c651834507
+3	1095	7290990586475947	CMakeFiles/UK.dir/6-DayUK/6.1-windows-serail-reader.c.obj	4983c28b2661bfc
+1	116	7292751795001089	build.ninja	6911aa93d8b9b1ef
+0	49	7291351507742333	CMakeFiles/UK.dir/1-DayUK/1-BIO.c.obj	bc6e8c6e940e2c3
+955	1077	7291886941368620	UK.exe	cc55793dc8677cb1
+2	765	7291378170237026	CMakeFiles/UK.dir/6-DayUK/6.3-readingFromSerial3.c.obj	88a3ec191bdb2110
 0	692	7286954180918511	CMakeFiles/UK.dir/5-DayUK/5.6-test.c.obj	d1c62c43b0f85d94
-0	102	7287294689891706	build.ninja	6911aa93d8b9b1ef
-0	691	7287294696992353	CMakeFiles/UK.dir/6-DayUK/6.3-readingFromSerial3.c.obj	88a3ec191bdb2110
-694	798	7287294698042185	UK.exe	6ab72121a4046474
+3	955	7291886940157250	CMakeFiles/UK.dir/7-DayUK/7.2-Calibration.c.obj	edf5c3c651834507
+3	861	7291854341929972	CMakeFiles/UK.dir/7-DayUK/7.1-Analysis.c.obj	d62d0abfb8cbfed1
